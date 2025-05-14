@@ -39,8 +39,6 @@ def read_input(filename):
         if node not in all_children:
             head = node
 
-    scale_dict = {}
-
     # build binary tree
     def create_scale(parent_name, input_dict):
         if parent_name[0].isalpha():
